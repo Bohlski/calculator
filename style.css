@@ -1,0 +1,142 @@
+body {
+	margin: 0;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #f9f9f9;
+}
+
+button {
+	font-size: inherit;
+}
+
+.calculator {
+    height: 38em;
+	width: 25em;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	background-color: #30324a;
+	border-radius: .8em;
+}
+
+.display {
+    margin-top: 1em;
+	width: 22.5em;
+	font-family: 'Noto Sans', sans-serif;	
+}
+
+.display-output {
+	font-size: 56px;
+	height: 7.25rem;
+	background-color: white;
+	border-radius: .4rem .4rem 0 0;
+	padding-right: 1.25rem;
+	color: #636363;
+}
+
+.display-formula {
+	background-color: lightgray;
+	height: 2.75em;
+	border-radius: 0 0 .4em .4em;
+	padding-right: 1.25em;
+	color: grey;
+}
+
+.display-text {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons {
+	margin-top: .5em;
+	width: 22.5em;
+}
+
+.upper-operators {
+	display: flex;
+}
+
+.bottom-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.digit-buttons {
+	width: 16.75em;
+}
+
+.lower-operators {
+	display: flex;
+	flex-direction: column;
+}
+
+.button {
+	border: none;
+    width: 5.25rem;
+	height: 4.6rem;
+	margin: .5rem 0 0 .5rem;
+	padding: 0;
+	border-radius: .4rem;
+	background-color: darkgray; /* CHANGE */
+	color: white;
+	font-size: 35px;
+}
+
+.upper-operators .button {
+	background-color: #413f52; /* Maybe change? */
+}
+
+.lower-operators .button {
+	background-color: #413f52; /* Maybe change? */
+}
+
+.lower-operators .equals {
+	height: 9.7rem;
+	background-color: orange;
+}
+
+
+/* ANNOYING SHIT */
+.clear {
+	margin-left: 0;
+}
+
+.digit1 {
+	margin-left: 0;
+	margin-right: -4px;
+}
+
+.digit2 {
+	margin-right: -4px;
+}
+
+.digit4 {
+	margin-right: -4px;
+	margin-left: 0;
+}
+
+.digit5 {
+	margin-right: -4px;
+}
+
+.digit7 {
+	margin-right: -4px;
+	margin-left: 0;
+}
+
+.digit8 {
+	margin-right: -4px;
+}
+
+.digit0 {
+	margin-left: 0;
+	margin-right: -4px;
+}
+
+.decimal-point {
+	margin-right: -4px;
+}
