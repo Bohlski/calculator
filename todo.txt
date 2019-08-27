@@ -1,0 +1,7 @@
+- Fix floating point rounding
+- Make bound on digits allowed for no 'screen overflow'
+- Make decimal button work
+- Make plus/minus button work
+- Make formula below main screen update as buttons are clicked
+- Let equals button be pressed repeatedly, such that the same operation is repeated as on real calculator (right now a bit backwards)
+- Maybe show a small sign to the side, to see the currently active operator
